@@ -1,8 +1,10 @@
-<svelte:head>
 
+
+<svelte:head>
+  <link rel="stylesheet" href="../style.css">
 </svelte:head>
 
-<div class="hero flex items-center justify-center">
+<div class="hero flex items-center justify-center main">
   <div class="hero-content text-center">
     <div class="text-center">
       <h1 class="text-6xl font-bold outline-none">
@@ -23,6 +25,15 @@
 
 
 <style>
+    @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap');
+    .main{
+        height: 100vh;
+        display: grid;
+        font-weight: 400;
+        background: #F5F5F5;
+        font-family: "Josefin Sans",serif;
+    }
+
     .mylink {
         text-decoration: none;
         background-image: linear-gradient(currentColor, currentColor);
