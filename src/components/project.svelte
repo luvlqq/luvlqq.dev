@@ -4,16 +4,23 @@
 
 <div class="main">
 	<div class="max-w-screen-md space-y-5 mx-auto">
-		<p class="text-center text-[#5865F2] text-3xl">My actual projects</p>
+		<p class="text-center text-4xl font-bold outline-none">MY ACTUAL PROJECTS</p>
 		<div class="grid grid-cols-1 gap-4">
 			{#each projects as project}
 				<div class="card">
-					<div class="projectName text-2xl p-1">
-						<span class="text-[#5865F2]">{project.name}</span>
+					<div class="projectName">
+						<span class="font-bold text-3xl space-y-5 space-x-2">{project.name}</span>
 					</div>
-					<div class="projectDescription">{project.description}</div>
-					<div class="projectStack">{project.stack.join(', ')}</div>
-					<div>{project.url}</div>
+					<div class="text-2xl">{project.description}</div>
+					<div class="text-2xl text-[#5865F2]">{project.stack.join(', ')}</div>
+					{#if project.url}
+						<a
+							class="hover:text-[#5865F2] duration-500 font-bold"
+							target="_blank"
+							rel="noreferrer"
+							href={project.url}>[URL]</a
+						>
+					{/if}
 				</div>
 			{/each}
 		</div>
@@ -30,14 +37,14 @@
 		background: #f5f5f5;
 		font-family: 'Josefin Sans', serif;
 		min-height: 100vh;
-      padding: 2.2em;
+		padding: 2.2em;
 	}
 	.card {
-      display: grid;
+		display: grid;
 		padding-left: 1rem;
 		color: black;
 		/*background-color: black;*/
-		border: 1px solid #5865f2;
+		border: 1px solid grey;
 	}
 	.projectName {
 	}

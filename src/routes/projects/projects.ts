@@ -10,47 +10,47 @@ export interface Project {
 
 export const projects: Project[] = [
 	{
-		name: 'DUTCalendarTracker',
+		name: 'Brema Wallet',
 		description:
-			"DUTCalendarTracker can provide easy access to classes from the university website. Get notifications about tomorrow's classes, timetable changes, etc.",
+			"Ecom wallet with simulate transactions between users. Update for diploma in future.",
 		stack: [
-			'CapRover',
-			'Docker',
 			'TypeScript',
-			'grammY',
-			'Prisma',
-			'BullMQ',
-			'Redis',
 			'NestJS',
-			'ReDoc',
-			'JSDom',
-			'PostgreSQL'
+			'NodeJS',
+			'JWT',
+			'Prisma',
+			'PostgreSQL',
+			'Svelte',
 		],
-		emoji: '📆',
-		url: 'https://dut-api.lwjerri.ml'
+		url: 'https://github.com/luvlqq/bremaWallet'
 	},
 	{
-		name: 'PoruchBot',
+		name: 'Brema Chat',
 		description:
-			'PoruchBot was developed especially for a volunteer organization. This bot performs a key function in the branch of getting help for people who have had to change their place of residence because of the war. This bot asks for basic information about the person, validates the data, searches the databases, and prevents possible cheating of the organization from re-registering. This is a very high-load bot.',
+			'simple online chat build on ws.',
 		stack: [
 			'TypeScript',
-			'CapRover',
-			'Docker',
-			'grammY',
+			'NodeJS',
+			'NestJS',
+			'PostgreSQL',
 			'Prisma',
-			'BullMQ',
-			'Redis',
-			'PostgreSQL'
+			'Socket.io',
 		],
-		emoji: '🍾'
+    url: 'https://github.com/luvlqq/bremaChat'
 	},
+  {
+    name: 'Express Auth API',
+    description:
+      'Auth API. Build by layer architecture.',
+    stack: ['TypeScript', 'NodeJS', 'Express', 'PostgreSQL', 'Prisma', 'JWT'],
+    url: 'https://github.com/luvlqq/weather-cli'
+  },
 	{
-		name: 'SimonBot',
+		name: 'Weather-CLI',
 		description:
-			'A discord bot that can track user orders and show some additional info about orders. Management of Discord servers, notification of new videos on YouTube channels, a tier system based on messages and user activity, fun commands, full moderation suite, real-time table with user data, position rentals, and more.',
-		stack: ['discord.js', 'Prisma', 'Canvacord', 'JSDom', 'TypeScript', 'PostgreSQL'],
-		emoji: '🦾'
+			'Is a console application wich can show forecast for your city.',
+		stack: ['JavaScript', 'NodeJS', 'CLI'],
+	  url: 'https://github.com/luvlqq/weather-cli'
 	}
 ];
 
