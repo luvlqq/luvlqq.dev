@@ -1,6 +1,5 @@
 <script lang="ts" xmlns="http://www.w3.org/1999/html">
 	import { projects } from '../routes/projects/projects';
-  import * as url from "url";
 </script>
 
 <div class="main">
@@ -12,9 +11,6 @@
 					<div class="projectName text-2xl text-center p-1"><span class="text-[#5865F2]">{project.name}</span></div>
 					<div class="projectDescription">{project.description}</div>
 					<div class="projectStack">{project.stack.join(', ')}</div>
-          {#if url}
-            <a class="hover:text-[#ED4245] duration-500" target="_blank" rel="noreferrer" href={url}>[URL]</a>
-          {/if}
 				</div>
 			{/each}
 		</div>
