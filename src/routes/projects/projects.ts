@@ -27,7 +27,7 @@ export const projects: Project[] = [
 	{
 		name: 'Brema Chat',
 		description:
-			'simple online chat build on ws.',
+			'Simple online chat build on websocket with Socket.io library',
 		stack: [
 			'TypeScript',
 			'NodeJS',
