@@ -8,9 +8,9 @@
 		<div class="grid grid-cols-1 gap-4">
 			{#each projects as project}
 				<div class="card">
-					<details class="group [&_summary::-webkit-details-marker]:hidden">
-						<summary class="flex items-center justify-center cursor-pointer">
-							<div class="projectName">
+					<details class="text-left group [&_summary::-webkit-details-marker]:hidden">
+						<summary class="flex items-center justify-between cursor-pointer">
+							<div>
 								<span class="font-bold text-3xl space-y-5 space-x-2 mylink">{project.name}</span>
 							</div>
 							<svg
@@ -19,7 +19,6 @@
 								fill="none"
 								viewBox="0 0 24 24"
 								stroke="currentColor"
-								onclick="this.classList.toggle('flipped')"
 							>
 								<path
 									stroke-linecap="round"
@@ -29,11 +28,11 @@
 								/>
 							</svg>
             </summary>
-						<div class="text-2xl">{project.description}</div>
-						<div class="text-2xl text-[#5865F2]">{project.stack.join(', ')}</div>
+						<div class="text-2xl text-left">{project.description}</div>
+						<div class="text-2xl text-[#5865F2] text-left">{project.stack.join(', ')}</div>
 						{#if project.url}
 							<a
-								class="hover:text-[#5865F2] duration-500 font-bold px-2"
+								class="hover:text-[#5865F2] duration-500 font-bold px-3"
 								target="_blank"
 								rel="noreferrer"
 								href={project.url}>[URL]</a
@@ -41,7 +40,7 @@
 						{/if}
             {#if project.github}
               <a
-                class="hover:text-[#5865F2] duration-500 font-bold px-2"
+                class="hover:text-[#5865F2] duration-500 font-bold px-3 text-left"
                 target="_blank"
                 rel="noreferrer"
                 href={project.github}>[GITHUB]</a
@@ -58,8 +57,8 @@
 	@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap');
 
 	.main {
-		align-content: center;
-		align-items: center;
+		/*align-content: center;*/
+		/*align-items: start;*/
 		font-weight: 400;
 		background: #f5f5f5;
 		font-family: 'Josefin Sans', serif;
