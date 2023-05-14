@@ -4,11 +4,11 @@
 
 <div class="main">
 	<div class="max-w-screen-md space-y-5 mx-auto">
-		<p class="text-left text-5xl font-bold outline-none">My projects</p>
+		<p class="text-center text-5xl font-bold outline-none">My projects</p>
 		<div class="grid grid-cols-1 gap-4">
 			{#each projects as project}
 				<div class="card">
-					<details class="group">
+					<details class="group [&_summary::-webkit-details-marker]:hidden">
 						<summary class="flex items-center justify-center cursor-pointer">
 							<div class="projectName">
 								<span class="font-bold text-3xl space-y-5 space-x-2">{project.name}</span>
