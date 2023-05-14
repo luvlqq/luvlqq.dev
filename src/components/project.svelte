@@ -3,7 +3,7 @@
 </script>
 
 <div class="main">
-	<div class="max-w-screen-md space-y-5 mx-auto">
+	<div class="max-w-screen-md space-y-5 mx-auto space-y-16">
 		<p class="text-center text-5xl font-bold outline-none">My projects</p>
 		<div class="grid grid-cols-1 gap-4">
 			{#each projects as project}
