@@ -35,7 +35,3 @@ export const projects: Project[] = [
     github: 'https://github.com/luvlqq/weather-cli'
 	}
 ];
-
-export const load = () => {
-	return { projects };
-};

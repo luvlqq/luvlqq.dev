@@ -4,7 +4,7 @@
 
 <div class="main">
 	<div class="max-w-screen-md space-y-5 mx-auto">
-		<p class="text-center text-4xl font-bold outline-none">MY PROJECTS</p>
+		<p class="text-left text-5xl font-bold outline-none">My projects</p>
 		<div class="grid grid-cols-1 gap-4">
 			{#each projects as project}
 				<div class="card">
@@ -64,7 +64,6 @@
 		background: #f5f5f5;
 		font-family: 'Josefin Sans', serif;
 		min-height: 100vh;
-		padding: 2.2em;
 	}
 	.card {
 		display: grid;

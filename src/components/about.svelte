@@ -26,6 +26,5 @@
         background: #f5f5f5;
         font-family: 'Josefin Sans', serif;
         min-height: 100vh;
-        padding: 2.2em;
     }
 </style>
