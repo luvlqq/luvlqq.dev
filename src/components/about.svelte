@@ -16,7 +16,7 @@
 		</div>
 		<p class="text-2xl">
 			Hello! <span class="text-[#5865F2]">My name is Ivan</span>, I was born in 2002 in Belarus. I
-			am study in <span class="text-[#5865F2]">Yanka Kupala State University of Grodno.</span>. I
+			am study in <span class="text-[#5865F2]">Yanka Kupala State University of Grodno.</span> I
 			started my journey of learning programming in 2019 when I got my hands on the book
 			<span class="text-[#5865F2]">"Self-Taught Programmer".</span> This book was dedicated to
 			Python, which at that time I didn't know at all. I quickly read the whole book and tried all
