@@ -4,7 +4,7 @@
 
 <div class="main">
 	<div class="max-w-screen-md space-y-5 mx-auto">
-		<p class="text-center text-4xl font-bold outline-none">MY ACTUAL PROJECTS</p>
+		<p class="text-center text-4xl font-bold outline-none">MY PROJECTS</p>
 		<div class="grid grid-cols-1 gap-4">
 			{#each projects as project}
 				<div class="card">
@@ -39,6 +39,14 @@
 								href={project.url}>[URL]</a
 							>
 						{/if}
+            {#if project.github}
+              <a
+                class="hover:text-[#5865F2] duration-500 font-bold px-2"
+                target="_blank"
+                rel="noreferrer"
+                href={project.github}>[GITHUB]</a
+              >
+            {/if}
 					</details>
 				</div>
 			{/each}
@@ -75,8 +83,4 @@
 	details > div {
 		padding: 10px;
 	}
-
-  .flipped {
-      transform: rotate(180deg);
-  }
 </style>
