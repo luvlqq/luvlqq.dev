@@ -15,16 +15,16 @@
 	.myBar {
 		font-family: 'Josefin Sans', serif;
 	}
-  .mylink {
-      text-decoration: none;
-      background-image: linear-gradient(currentColor, currentColor);
-      background-position: 0% 100%;
-      background-repeat: no-repeat;
-      background-size: 0% 1px;
-      transition: background-size 0.3s;
-  }
+	.mylink {
+		text-decoration: none;
+		background-image: linear-gradient(currentColor, currentColor);
+		background-position: 0% 100%;
+		background-repeat: no-repeat;
+		background-size: 0% 1px;
+		transition: background-size 0.3s;
+	}
 
-  .mylink:hover {
-      background-size: 100% 1px;
-  }
+	.mylink:hover {
+		background-size: 100% 1px;
+	}
 </style>

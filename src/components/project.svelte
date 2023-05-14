@@ -27,7 +27,7 @@
 									d="M19 9l-7 7-7-7"
 								/>
 							</svg>
-            </summary>
+						</summary>
 						<div class="text-2xl text-left">{project.description}</div>
 						<div class="text-2xl text-[#5865F2] text-left">{project.stack.join(', ')}</div>
 						{#if project.url}
@@ -38,14 +38,14 @@
 								href={project.url}>[URL]</a
 							>
 						{/if}
-            {#if project.github}
-              <a
-                class="hover:text-[#5865F2] duration-500 font-bold px-3 text-left"
-                target="_blank"
-                rel="noreferrer"
-                href={project.github}>[GITHUB]</a
-              >
-            {/if}
+						{#if project.github}
+							<a
+								class="hover:text-[#5865F2] duration-500 font-bold px-3 text-left"
+								target="_blank"
+								rel="noreferrer"
+								href={project.github}>[GITHUB]</a
+							>
+						{/if}
 					</details>
 				</div>
 			{/each}
@@ -66,7 +66,7 @@
 	}
 	.card {
 		display: grid;
-      text-align: center;
+		text-align: center;
 		padding-left: 1rem;
 		color: black;
 		/*background-color: black;*/
@@ -83,16 +83,16 @@
 		padding: 10px;
 	}
 
-  .mylink {
-      text-decoration: none;
-      background-image: linear-gradient(currentColor, currentColor);
-      background-position: 0% 100%;
-      background-repeat: no-repeat;
-      background-size: 0% 1px;
-      transition: background-size 0.3s;
-  }
+	.mylink {
+		text-decoration: none;
+		background-image: linear-gradient(currentColor, currentColor);
+		background-position: 0% 100%;
+		background-repeat: no-repeat;
+		background-size: 0% 1px;
+		transition: background-size 0.3s;
+	}
 
-  .mylink:hover {
-      background-size: 100% 1px;
-  }
+	.mylink:hover {
+		background-size: 100% 1px;
+	}
 </style>
