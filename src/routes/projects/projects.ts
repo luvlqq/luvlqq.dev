@@ -22,6 +22,12 @@ export const projects: Project[] = [
 		stack: ['TypeScript', 'NodeJS', 'NestJS', 'PostgreSQL', 'Prisma', 'Socket.io'],
     github: 'https://github.com/luvlqq/bremaChat'
 	},
+  {
+    name: 'luvlqq.dev',
+    description: 'My personal website with my projects, info and links',
+    stack: ['TypeScript', 'JavaScript', 'Svelte', 'tailwindcss', 'daisyui', 'flowbite'],
+    github: 'https://github.com/luvlqq/luvlqq.dev'
+  },
 	{
 		name: 'Express Auth API',
 		description: 'Auth API. Build by layer architecture.',
