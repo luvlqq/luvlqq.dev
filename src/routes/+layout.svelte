@@ -7,4 +7,4 @@
 </script>
 
 <slot />
-<!--<Footer/>-->
+<Footer/>

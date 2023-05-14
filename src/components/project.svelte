@@ -8,7 +8,7 @@
 		<div class="grid grid-cols-1 gap-4">
 			{#each projects as project}
 				<div class="card">
-					<details class="text-left group [&_summary::-webkit-details-marker]:hidden">
+					<details class="text-left py-2 group [&_summary::-webkit-details-marker]:hidden">
 						<summary class="flex items-center justify-between cursor-pointer">
 							<div>
 								<span class="font-bold text-3xl space-y-5 space-x-2 mylink">{project.name}</span>
