@@ -11,7 +11,7 @@
 					<details class="group [&_summary::-webkit-details-marker]:hidden">
 						<summary class="flex items-center justify-center cursor-pointer">
 							<div class="projectName">
-								<span class="font-bold text-3xl space-y-5 space-x-2">{project.name}</span>
+								<span class="font-bold text-3xl space-y-5 space-x-2 mylink">{project.name}</span>
 							</div>
 							<svg
 								class="ml-1.5 h-5 w-5 flex-shrink-0 transition duration-500 group-open:-rotate-180"
@@ -67,10 +67,11 @@
 	}
 	.card {
 		display: grid;
+      text-align: center;
 		padding-left: 1rem;
 		color: black;
 		/*background-color: black;*/
-		border: 1px solid grey;
+		/*border: 1px solid grey;*/
 	}
 	details > summary {
 		padding: 5px;
@@ -82,4 +83,17 @@
 	details > div {
 		padding: 10px;
 	}
+
+  .mylink {
+      text-decoration: none;
+      background-image: linear-gradient(currentColor, currentColor);
+      background-position: 0% 100%;
+      background-repeat: no-repeat;
+      background-size: 0% 1px;
+      transition: background-size 0.3s;
+  }
+
+  .mylink:hover {
+      background-size: 100% 1px;
+  }
 </style>
