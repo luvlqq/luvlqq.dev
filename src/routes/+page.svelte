@@ -3,7 +3,7 @@
 </svelte:head>
 
 <div class="hero flex items-center justify-center main">
-	<div class="hero-content text-center">
+	<div class="hero-content text-center text-black">
 		<div class="text-center">
 			<h1 class="text-6xl font-bold outline-none">
 				<p>IVAN LIALIUK</p>

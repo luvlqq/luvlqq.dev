@@ -1,6 +1,6 @@
 <div class="navbar text-2xl myBar">
 	<div class="flex-1" />
-	<div class="flex-none px-0.5">
+	<div class="flex-none px-0.5 text-black">
 		<a href="/" class="px-2 mylink">Home</a>
 		<a href="/projects" class="px-2 mylink">Projects</a>
 		<a href="/about" class="px-2 mylink">About me</a>
