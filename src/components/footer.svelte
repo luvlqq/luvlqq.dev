@@ -11,8 +11,6 @@
 	@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap');
 
 	.main {
-		/*align-content: center;*/
-		/*align-items: start;*/
 		font-weight: 400;
 		background: #f5f5f5;
 		font-family: 'Josefin Sans', serif;

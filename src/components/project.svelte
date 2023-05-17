@@ -4,7 +4,7 @@
 
 <div class="main">
 	<div class="max-w-screen-md space-y-5 mx-auto space-y-16">
-		<p class="text-center text-5xl font-bold outline-none">My projects</p>
+		<p class="text-center text-5xl font-bold outline-none text-black">My projects</p>
 		<div class="grid grid-cols-1 gap-4">
 			{#each projects as project}
 				<div class="card">
@@ -57,8 +57,6 @@
 	@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap');
 
 	.main {
-		/*align-content: center;*/
-		/*align-items: start;*/
 		font-weight: 400;
 		background: #f5f5f5;
 		font-family: 'Josefin Sans', serif;
@@ -69,8 +67,6 @@
 		text-align: center;
 		padding-left: 1rem;
 		color: black;
-		/*background-color: black;*/
-		/*border: 1px solid grey;*/
 	}
 	details > summary {
 		padding: 5px;
