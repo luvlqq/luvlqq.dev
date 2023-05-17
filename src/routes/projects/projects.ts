@@ -19,14 +19,15 @@ export const projects: Project[] = [
 	{
 		name: 'Brema Chat',
 		description: 'Simple online chat build on websocket with Socket.io library',
-		stack: ['TypeScript', 'NodeJS', 'NestJS', 'PostgreSQL', 'Prisma', 'Socket.io'],
+		stack: ['Svelte', 'TypeScript', 'NodeJS', 'NestJS', 'PostgreSQL', 'Prisma', 'Socket.io'],
 		github: 'https://github.com/luvlqq/bremaChat'
 	},
 	{
 		name: 'luvlqq.dev',
 		description: 'My personal website with my projects, info and links',
 		stack: ['TypeScript', 'JavaScript', 'Svelte', 'tailwindcss', 'daisyui', 'flowbite'],
-		github: 'https://github.com/luvlqq/luvlqq.dev'
+		github: 'https://github.com/luvlqq/luvlqq.dev',
+    url: 'https://luvlqq-dev.vercel.app/'
 	},
 	{
 		name: 'Express Auth API',
