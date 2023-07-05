@@ -4,7 +4,7 @@
 </script>
 
 <div class="main">
-	<div class="flex flex-col space-y-16 max-w-4xl px-5 mx-auto">
+	<div class="flex flex-col space-y-16 max-w-4xl px-5 mx-auto text-black">
 		<div class="space-y-10">
 			<div
 				class="flex justify-between font-bold items-center flex-col space-y-2 sm:flex-row sm:space-y-0"
@@ -71,7 +71,7 @@
 				</h1>
 			</div>
 		</div>
-		<p class="text-2xl">yadjdiva@gmail.com</p>
+		<p class="text-2xl">{email}</p>
 		<p class="text-2xl">
 			<a
 				class="text-2xl duration-500 mr-6 text-3xl mylink"
