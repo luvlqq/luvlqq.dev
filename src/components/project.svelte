@@ -28,6 +28,9 @@
 								/>
 							</svg>
 						</summary>
+            {#if project.status}
+              <div class="text-2xl text-left text-[#5865F2]">{project.status}</div>
+            {/if}
 						<div class="text-2xl text-left">{project.description}</div>
 						<div class="text-2xl text-[#5865F2] text-left">{project.stack.join(', ')}</div>
 						{#if project.url}
