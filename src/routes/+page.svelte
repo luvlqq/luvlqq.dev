@@ -1,7 +1,3 @@
-<svelte:head>
-	<link rel="stylesheet" href="../style.css" />
-</svelte:head>
-
 <div class="hero flex items-center justify-center main">
 	<div class="hero-content text-center text-black">
 		<div class="text-center">
