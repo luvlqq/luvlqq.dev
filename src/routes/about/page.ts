@@ -3,6 +3,19 @@ export const Technologies = [
 	'JavaScript',
 	'NodeJS',
 	'NestJs',
+	'GraphQL',
+	'Microservices',
+	'Websockets',
+	'RabbitMQ',
+	'Kafka',
+	'Redis',
+	'CQRS',
+	'OAuth',
+	'ElasticSearch',
+	'Kibana',
+	'Winston',
+	'Pino',
+	'Stripe',
 	'PostgreSQL',
 	'MongoDB',
 	'PrismaORM',
@@ -13,5 +26,7 @@ export const Technologies = [
 	'HTML',
 	'CSS',
 	'Tailwind',
-	'Git'
+	'Git',
+	'Prettier',
+	'EsLint'
 ];
